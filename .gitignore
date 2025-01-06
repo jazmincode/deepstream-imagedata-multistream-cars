@@ -1,0 +1,9 @@
+# Ignorar directorios de caché de Python
+__pycache__/
+
+# Ignorar archivos de caché de Python
+*.pyc
+
+frames/frames_video/
+frames/frames_Up/
+frames/frames_Down/

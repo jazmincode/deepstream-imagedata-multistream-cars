@@ -1,0 +1,20 @@
+[ROI]
+
+1.- Determinar como hacer que le ROI no sea estatico, tomar referencias como el puente, y areas verdes
+para calibrar el ROI en cada frame, ya que en ocasiones la camara cambia de angulo o enfoque y necesito
+seguir monitoreando la misma zona
+
+[CONFIDENCE]
+
+1.- Averiguar porque la confidence de la deteccion de objeto es fiable pero al acceder al confidence en
+el tracker siempre es 1.0,
+con una confidence confiable se resolveria el exceso en el contedo de carros con direction Down.
+(tambien resolveria los falsos postivos en el recorte)
+
+[DRAW]
+1.- Hacer que funcione el cambio de tipografias con PIL y Opencv (opencv tiene una cantidad muy limitada de tipos)
+
+------------------------------------------------------------------------------------------------------------------
+Total Down: Creo que es la cantidad de falsos positivos lo que hace que deben esos numeros
+Cropper: Falsos positivos en los recortes
+
